@@ -7,7 +7,7 @@ function new_excerpt_mblength($length) {
 }
 add_filter('excerpt_mblength', 'new_excerpt_mblength');
 function new_excerpt_more($more) {
-  return ' [続きを読む]';
+  return '<br>[続きを読む]';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 function search_template_redirect(){
